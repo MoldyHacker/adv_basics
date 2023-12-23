@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:adv_basics/questions_screen.dart';
 
 class StartScreen extends StatelessWidget {
   const StartScreen({super.key});
@@ -24,7 +25,9 @@ class StartScreen extends StatelessWidget {
           ),
           const SizedBox(height: 30),
           OutlinedButton.icon(
-            onPressed: () {}, 
+            onPressed: () {
+              const QuestionsScreen();
+            }, 
             style: OutlinedButton.styleFrom(
               foregroundColor: Colors.white,
             ),
