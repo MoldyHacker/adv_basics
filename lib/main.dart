@@ -12,6 +12,8 @@ void main() {
                   Colors.deepPurple,
                   Colors.purple,
                 ],
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
               ),
             ),
             child: const StartScreen(),
