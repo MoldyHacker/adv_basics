@@ -18,7 +18,7 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const Text(
-            'The questions...',
+            'The question...',
             style: TextStyle(
               fontSize: 24,
               color: Colors.white,
