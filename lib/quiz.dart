@@ -20,9 +20,7 @@ class _QuizState extends State<Quiz> {
   }
 
   void chooseAnswer(String answer) {
-    setState(() {
       selectedAnswers.add(answer);
-    });
   }
 
   @override
